@@ -1,0 +1,15 @@
+.offers-banner {
+  /* align-content: center; */
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offers-banner img {
+    width: fit-content;
+  /* height: 90%; */
+   height: 50vh;
+  /*display: flex;
+  width: 100vh; */
+}

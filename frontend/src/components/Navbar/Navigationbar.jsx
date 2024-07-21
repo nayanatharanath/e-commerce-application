@@ -9,7 +9,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Button from "react-bootstrap/Button";
 
-function Navigationbar() {
+const Navigationbar = () => {
   // const [menu, setMenu] = useState("home");
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
@@ -61,6 +61,6 @@ function Navigationbar() {
     //   </div>
     // </div>
   );
-}
+};
 
 export default Navigationbar;
