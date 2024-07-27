@@ -24,7 +24,7 @@ let productData = [
   },
   {
     id: 4,
-    name: "Light weight BB Cream",
+    name: "BB Cream",
     image: mp1,
     price: 100.0,
   },

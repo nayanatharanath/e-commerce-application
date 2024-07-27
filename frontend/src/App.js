@@ -21,6 +21,12 @@ function App() {
           <Route path=":productId" element={<Product />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<LoginSignup />} />
+          {/* <Route path="/products" element={<Category category="products" />} />
+          <Route path="/about" element={<Category category="about" />} />
+          <Route path="/contact" element={<Category category="contact" />} />
+          <Route path="/socialMedia" element={<Category category="SocialMedia" />} />
+          <Route path="/socialMedia" element={<Category category="SocialMedia" />} />
+          <Route path="/socialMedia" element={<Category category="SocialMedia" />} /> */}
         </Routes>
       </BrowserRouter>
     </div>
